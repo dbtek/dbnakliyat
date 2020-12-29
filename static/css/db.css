@@ -1,0 +1,137 @@
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight: 700;
+}
+
+i.icon {
+  line-height: 16px;
+}
+
+.navbar .container-fluid {
+  max-width: 1320px;
+}
+
+.navbar-collapse {
+  width: unset;
+}
+
+.navbar .nav-link.active {
+  color: #e15f41 !important;
+}
+
+.intro-header {
+	padding-top: 110px;
+	padding-bottom: 56px;
+	color: #f8f8f8;
+  background: url(../img/intro-bg.png) no-repeat center center;
+  background-size: cover;
+	text-align: center;
+}
+
+.header-text-light {
+  color: #aaa;
+}
+
+.content-section-a {
+	background-color: #f8f8f8;
+	padding: 50px 0;
+}
+
+.content-section-b {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	padding: 50px 0;
+}
+
+.section-heading {
+	margin-bottom: 30px;
+}
+
+.section-heading-spacer {
+	border-top: 3px solid #e7e7e7;
+	width: 200px;
+	float: left;
+}
+
+.section img {
+  width: 100%;
+  max-width: 400px;
+}
+
+footer {
+  background-color: #e15f41 !important;
+  font-weight: normal;
+  color: #bdc3c7;
+  padding: 36px 0 20px;
+}
+footer a {
+  color: #eee;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+footer .nav {
+  max-width: 1320px;
+}
+footer svg {
+  margin-top: -4px;
+}
+.footer-menu-divider {
+  line-height: 36px;
+}
+footer .copyright {
+  margin: 1rem 1.25rem;
+}
+
+/*
+
+
+.nav-menu li a {
+  cursor: pointer;
+}
+.section {
+  min-height: 550px;
+}
+.section-heading {
+  color: #e74c3c;
+}
+
+/** Bootstrap overrides **/
+/*
+.navbar-dbf {
+  background-color: #e74c3c;
+  color: white;
+  border-bottom: none;
+}
+.navbar-dbf .navbar-brand {
+  color: #eee;
+}
+.navbar-dbf .navbar-brand:hover {
+  color: #eee;
+}
+.navbar-dbf .nav li a {
+  color: #eee;
+  font-weight: normal;
+}
+.navbar-dbf .nav li a:hover, .navbar-dbf .nav li.active a:hover {
+  color: white;
+  background-color: #e15f41;
+}
+.navbar-dbf .nav li.active a {
+  background-color: #e15f41;
+  color: white;
+}
+.navbar-dbf .navbar-header .navbar-toggle .icon-bar { background-color: #fff }
+.navbar-dbf .navbar-header .navbar-toggle:hover .icon-bar, .navbar-dbf .navbar-header .navbar-toggle:focus .icon-bar { background-color: #e74c3c }
+
+#contact .info {
+  font-size: 16px;
+  font-weight: normal;
+  padding-left: 10px;
+}
+
+#contact .info .glyphicon {
+  position: relative;
+  left: -5px;
+} */
