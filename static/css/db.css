@@ -256,6 +256,30 @@ footer .copyright {
 }
 
 /* Responsive improvements */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #f8f9fa;
+    padding: 1rem;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: 0;
+    z-index: 1000;
+  }
+  
+  .navbar .nav-link {
+    padding: 0.75rem 1rem;
+    text-align: left;
+  }
+  
+  .navbar-toggler {
+    margin-right: 0;
+    margin-left: auto;
+  }
+}
+
 @media (max-width: 768px) {
   .intro-header {
     padding-top: 120px;
@@ -269,6 +293,16 @@ footer .copyright {
   
   .section img {
     margin-bottom: 30px;
+  }
+  
+  footer .nav {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .footer-menu-divider {
+    display: none;
   }
 }
 
